@@ -25,9 +25,21 @@ This project enables touchless control of system volume using hand gestures, lev
 
 ---
 
-## 📦 Installation
+Install the required libraries:
+pip install opencv-python mediapipe pyautogui
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/gesture-volume-control.git
-   cd gesture-volume-control
+---
+
+▶️ How to Run
+
+python gesture_volume_control.py
+
+Make sure your webcam is connected.
+
+Show your hand in front of the camera.
+
+Move your thumb and index finger apart to increase volume.
+
+Move them closer to decrease volume.
+
+Press ESC to exit.
